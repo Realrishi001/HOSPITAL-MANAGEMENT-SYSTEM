@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care - Doctors</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+<style>
+
+    .section {
+        margin: 40px auto;
+        width: 1000px;
+    }
+
+    .section-header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.3s;
+        height: fit-content;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .card p {
+        color: #666;
+        font-size: 14px;
+    }
+</style>
+
+</head>
+<body>
+        <!-- Navbar -->
+    
+        <div class="navbar">
+            <div class="left">
+                <a href="Home.html"><img src="./Assets/HEATLH.png" alt="HealthCareLogo"></a>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Doctors.html">DOCTORS</a></li>
+                    <li><a href="Aboutus.html">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="Login.php"><button type="button"><img src="./Assets/upload_area.png" alt=""></button></a>
+            </div>
+        </div>
+
+<br><br>    
+        <center><h1>Our Doctors</h1></center>
+
+<!-- General Physicians -->
+        <div class="section">
+            <div class="section-header">General Physicians</div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./Assets/doc1.png" alt="Doctor Image">
+                    <h3>Dr. Richard James</h3>
+                    <p>General Physician</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc5.png" alt="Doctor Image">
+                    <h3>Dr. Jennifer Garcia</h3>
+                    <p>General Physician</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc6.png" alt="Doctor Image">
+                    <h3>Dr. Christan Metaphor</h3>
+                    <p>General Physician</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc7.png" alt="Doctor Image">
+                    <h3>Dr. Aafiq Khan</h3>
+                    <p>General Physician</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Gynecologists -->
+        <div class="section">
+            <div class="section-header">Gynecologists</div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./Assets/doc2.png"Doctor Image">
+                    <h3>Dr. Emily Larson</h3>
+                    <p>Gynecologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc8.png" alt="Doctor Image">
+                    <h3>Dr. Nova Devis</h3>
+                    <p>Gynecologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc9.png" alt="Doctor Image">
+                    <h3>Dr. Olivia Brown</h3>
+                    <p>Gynecologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc10.png" alt="Doctor Image">
+                    <h3>Dr. Lucas Thompson</h3>
+                    <p>Gynecologist</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Dermatologists -->
+        <div class="section">
+            <div class="section-header">Dermatologists</div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./Assets/doc3.png" alt="Doctor Image">
+                    <h3>Dr. Sarah Patel</h3>
+                    <p>Dermatologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc11.png" alt="Doctor Image">
+                    <h3>Dr. Liam Wilsom</h3>
+                    <p>Dermatologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc12.png" alt="Doctor Image">
+                    <h3>Dr. Miam Johnson</h3>
+                    <p>Dermatologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc13.png" alt="Doctor Image">
+                    <h3>Dr.Amelia Garcia
+                    </h3>
+                    <p>Dermatologist</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Pediatricians, Neurologist -->
+        <div class="section">
+            <div class="section-header">Pediatricians & Neurologist</div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./Assets/doc14.png" alt="Doctor Image">
+                    <h3>Dr. Sarah Patel</h3>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc15.png" alt="Doctor Image">
+                    <h3>Dr. Liam Wilsom</h3>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc10.png" alt="Doctor Image">
+                    <h3>Dr. Miam Johnson</h3>
+                    <p>Neurologist</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/doc1.png" alt="Doctor Image">
+                    <h3>Dr.Amelia Garcia
+                    </h3>
+                    <p>Neurologist</p>
+                </div>
+                
+            </div>
+        </div>
+
+</body>
+</html>
